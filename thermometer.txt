@@ -1,0 +1,16 @@
+Pseudocode cara kerja thermometer
+1. START
+2. DECLARE besar, tipe, hasil
+3. STORE "besar" with any value3. STORE "tipe" with any value
+4. IF "tipe" = fahrenheit
+5. 	CALCULATE "(besar-32)*(5/9)"
+6. SET "hasil" value with calculation result 	
+7. 	ELSE 
+8. IF "tipe" = kelvin
+9. 	CALCULATE "(besar - 273.15)"
+10. SET "hasil" value with calculation result 	
+11. ELSE 
+12.IF "tipe" = celcius
+13. SET "hasil" = "besar"	
+14. DISPLAY "hasil"
+15. END

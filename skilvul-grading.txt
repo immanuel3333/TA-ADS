@@ -1,0 +1,25 @@
+Pseudocode grading
+1. START
+. DECLARE n temp_n
+. STORE n
+. IF "n <= 68"
+. DISPLAY "n"
+
+. IF "n >= 68"
+. DO 
+. 	temp_n <- n mod 5
+. 	IF "temp_n < 2"
+. 	DISPLAY "n"
+.	ELSE
+. 	IF "temp_n = 3"
+.	DO "n + 2"
+.	DISPLAY "n"
+.	ELSE
+. 	IF "temp_n = 4"
+.	DO "n + 1"
+.	DISPLAY "n"
+.	ELSE
+. 	IF "temp_n = 0"
+.	DISPLAY "n"
+.END
+ 	

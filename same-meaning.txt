@@ -1,0 +1,25 @@
+Pseudocode same meaning
+1. START
+2. DECLARE st, s, e, n
+
+3. FUNCTION isPalindrome1(st, s, e)
+4. IF "s == e"
+5. DISPLAY "TRUE"
+6. IF "st[s] != st[e]"
+7. DISPLAY "FALSE"
+8. IF "s<e+1"
+9. DO isPalindrome1(st, s+1, e-1)
+10. DISPLAY TRUE
+
+11. FUNCTION isPalindrome2(st)
+12. n = len(st)
+13. IF "n == 0"
+14. DISPLAY "TRUE"
+15. DO "isPalindrome1(st, 0, n-1)"
+
+16. STORE ST
+17. IF "isPalindrome2(st)"
+18. DISPLAY "TRUE"
+19. ELSE
+20. DISPLAY "FALSE"
+21. END
